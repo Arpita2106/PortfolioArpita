@@ -18,6 +18,6 @@ app.get("/contact", function(req,res){
   res.render("contact");
 });
 
-app.listen(3000, function(){
-  console.log("Server started at port 3000");
+app.listen(2000, function(){
+  console.log("Server started at port 2000");
 });
